@@ -1,0 +1,94 @@
+{
+	"header": {
+		"menu": { "services": "услуги", "works": "работы", "contacts": "контакты" },
+		"buttons": {
+			"contact": "связаться",
+			"toggleTheme": "переключить тему",
+			"changeLang": "изменить язык"
+		}
+	},
+	"hero": {
+		"label": "меня зовут",
+		"title": {
+			"general": [
+				{ "name": "А", "id": "5325c432" },
+				{ "name": "л", "id": "fhe89qw" },
+				{ "name": "е", "id": "5d4x325" },
+				{ "name": "к", "id": "d5x325dxc" },
+				{ "name": "с", "id": "d5342d5" },
+				{ "name": "а", "id": "n9876" },
+				{ "name": "н", "id": "c4235c" },
+				{ "name": "д", "id": "n89567ub5" },
+				{ "name": "р", "id": "c4532523c" }
+			],
+			"highlighted": [
+				{ "name": "В", "id": "fh923fhb893q" },
+				{ "name": "а", "id": "n6790n76" },
+				{ "name": "в", "id": "n56v8734o9" },
+				{ "name": "и", "id": "84n901x" },
+				{ "name": "л", "id": "t785y94v" },
+				{ "name": "о", "id": "85v43" },
+				{ "name": "в", "id": "c845n3" }
+			]
+		},
+		"subtitle": "Творческий front-end разработчик с более чем 3-летним опытом в веб-разработке. Специалист по React, JavaScript, HTML"
+	},
+	"services": {
+		"label": "услуги",
+		"title": "специализация",
+		"cards": {
+			"firstCard": {
+				"title": "Верстка",
+				"subtitle": "Простая отзывчивая верстка с использованием препроцессоров, различных css фреймворков или без таковых"
+			},
+			"secondCard": {
+				"title": "Лендинги",
+				"subtitle": "SPA с использованием react, state management библиотеки (redux) и роутингом"
+			},
+			"thirdCard": {
+				"title": "Fullstack сайты",
+				"subtitle": "Полноценный веб-сайт с использованием react в качестве front-end и firebase в качестве back-end сервис"
+			}
+		}
+	},
+	"works": {
+		"label": "мои работы",
+		"title": "портфолио",
+		"slides": [
+			"Интернет-магазин Мебели",
+			"Сайт-портфолио",
+			"Интернет-магазин мороженного"
+		]
+	},
+	"contacts": {
+		"links": {
+			"telegram": "телеграм",
+			"phoneNumber": "телефон",
+			"email": "эл.почта"
+		},
+		"form": {
+			"name": "Имя",
+			"email": "Эл.Почта",
+			"message": "Сообщение",
+			"button": "Отправить"
+		},
+		"successfullyMessageSendingAlert": "Сообщение было успешно отправлено!",
+		"failedMessageSendingAlert": "Упсс...Что-то пошло не так"
+	},
+	"dashboard": {
+		"label": "добавьте свои работы",
+		"title": "панель управления",
+		"form": {
+			"title": "Заголовок",
+			"githubLink": "Github ссылка",
+			"link": "Демо ссылка",
+			"technologies": "Веб технологии",
+			"button": "Подтвердить"
+		},
+		"login": {
+			"email": "Почта",
+			"password": "Пароль",
+			"button": "Войти"
+		}
+	}
+}

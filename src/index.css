@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	.container {
+		@apply max-w-7xl mx-auto px-4 !important;
+	}
+}
+
+@layer components {
+	@media (hover: hover), (pointer: fine) {
+		.link-underline {
+			@apply after:absolute after:-bottom-2 after:left-1/2 after:block after:bg-ocean-300 after:w-0 after:h-0.5 after:rounded-full after:transition-all after:duration-300;
+		}
+		.link-underline:hover {
+			@apply after:left-0 after:w-full;
+		}
+		.button-non-touchable-hover:hover {
+			@apply bg-opacity-25;
+		}
+	}
+	.form-field {
+		@apply dark:bg-neutral-800 py-3 md:py-4 px-6 rounded-lg outline-none transition-colors;
+	}
+}
+
+@layer utilities {
+}
+
+.bouncing {
+	animation: rubberband 900ms alternate ease-out;
+}
+
+@keyframes rubberband {
+	0% {
+		transform: scaleX(1);
+	}
+	40% {
+		transform: scaleX(1.12) scaleY(0.75);
+	}
+	55% {
+		transform: scaleX(0.85) scaleY(1);
+	}
+	65% {
+		transform: scaleX(1.09) scaleY(0.85);
+	}
+	75% {
+		transform: scaleX(0.9) scaleY(1);
+	}
+	90% {
+		transform: scaleX(1.05) scaleY(0.95);
+	}
+	100% {
+		transform: scaleX(1) scaleY(1);
+	}
+}
+
+.background-pulse {
+	animation: pulse 2s infinite ease-in-out;
+}
+
+@keyframes pulse {
+	0% {
+		background-color: #94a3b8;
+	}
+
+	50% {
+		background-color: #cbd5e1;
+	}
+
+	100% {
+		background-color: #94a3b8;
+	}
+}
+
+.progress-bar {
+	animation: progress 5s linear forwards;
+}
+
+@keyframes progress {
+	0% {
+		width: 100%;
+	}
+	100% {
+		width: 0%;
+	}
+}
+
+body,
+#root {
+	@apply h-full;
+}
+
+html {
+	@apply scroll-smooth;
+}

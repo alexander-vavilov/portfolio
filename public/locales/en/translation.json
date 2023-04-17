@@ -1,0 +1,98 @@
+{
+	"header": {
+		"menu": {
+			"services": "services",
+			"works": "works",
+			"contacts": "contacts"
+		},
+		"buttons": {
+			"contact": "contact",
+			"toggleTheme": "switch theme",
+			"changeLang": "change language"
+		}
+	},
+	"hero": {
+		"label": "my name is",
+		"title": {
+			"general": [
+				{ "name": "A", "id": "5325c432" },
+				{ "name": "l", "id": "fhe89qw" },
+				{ "name": "e", "id": "5d4x325" },
+				{ "name": "x", "id": "d5x325dxc" },
+				{ "name": "a", "id": "d5342d5" },
+				{ "name": "n", "id": "n9876" },
+				{ "name": "d", "id": "c4235c" },
+				{ "name": "e", "id": "n89567ub5" },
+				{ "name": "r", "id": "c4532523c" }
+			],
+			"highlighted": [
+				{ "name": "V", "id": "fh923fhb893q" },
+				{ "name": "a", "id": "n6790n76" },
+				{ "name": "v", "id": "n56v8734o9" },
+				{ "name": "i", "id": "84n901x" },
+				{ "name": "l", "id": "t785y94v" },
+				{ "name": "o", "id": "85v43" },
+				{ "name": "v", "id": "c845n3" }
+			]
+		},
+		"subtitle": "Creative front-end developer with more than +3 years of experience in web development. Proficient in React, JavaScript, HTML"
+	},
+	"services": {
+		"label": "services",
+		"title": "specialized in",
+		"cards": {
+			"firstCard": {
+				"title": "HTML coding",
+				"subtitle": "Simple responsive html coding using preprocessors, various css frameworks or without them"
+			},
+			"secondCard": {
+				"title": "Landing pages",
+				"subtitle": "Single page applications using react, state management library (redux) and routing"
+			},
+			"thirdCard": {
+				"title": "Fullstack websites",
+				"subtitle": "A full-fledged website using react as a front-end and firebase as a back-end service"
+			}
+		}
+	},
+	"works": {
+		"label": "my works",
+		"title": "featured portfolios",
+		"slides": [
+			"Furniture Store Website",
+			"Portfolio Website",
+			"Ice cream Store Website"
+		]
+	},
+	"contacts": {
+		"links": {
+			"telegram": "telegram",
+			"phoneNumber": "phone",
+			"email": "E-Mail"
+		},
+		"form": {
+			"name": "Name",
+			"email": "Email",
+			"message": "Message",
+			"button": "Send"
+		},
+		"successfullyMessageSendingAlert": "The message was sent successfully!",
+		"failedMessageSendingAlert": "Oops...Something went wrong"
+	},
+	"dashboard": {
+		"label": "add your works",
+		"title": "dashboard",
+		"form": {
+			"title": "Title",
+			"githubLink": "Github link",
+			"link": "Demo link",
+			"technologies": "Web technologies",
+			"button": "Submit"
+		},
+		"login": {
+			"email": "Email",
+			"password": "Password",
+			"button": "Log in"
+		}
+	}
+}
