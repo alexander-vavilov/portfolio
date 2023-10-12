@@ -10,19 +10,19 @@ const ContactLinks = () => {
 	const contactLinks = [
 		{
 			title: t('contacts.links.telegram'),
-			subtitle: '@hittttau',
+			subtitle: '@username',
 			icon: FaTelegramPlane,
-			path: 'https://t.me/Hittttau',
+			path: 'https://t.me/username',
 		},
 		{
 			title: t('contacts.links.phoneNumber'),
-			subtitle: '(981) 977-3055',
+			subtitle: '(xxx) xxx-xxxx',
 			icon: FiPhoneCall,
-			path: 'tel:9819773055',
+			path: 'tel:xxxxxxxxxx',
 		},
 		{
 			title: t('contacts.links.email'),
-			subtitle: 'maksimsraud@gmail.com',
+			subtitle: 'mail@mail.mail',
 			icon: MdOutlineMailOutline,
 			path: 'https://gmail.com',
 		},
